@@ -1,5 +1,5 @@
 def print_list (l):
-    even_list = [item for item in l if item % 2 == 0]
+    even_list = [item for item in l if item % 2 == 0] # this is a way to add the value in the list short way 
     odd_list = [item for item in l if item % 2 != 0]
     return even_list,odd_list
 
