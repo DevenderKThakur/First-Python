@@ -44,9 +44,9 @@ def pattern28(n):
         totalColinRow = 2 * n - row if row > n else row 
         totalSpace = n - totalColinRow
         for space in range (totalSpace):
-            print (end=" ")
+            print (end="  ")
         for col in range (totalColinRow):
-            print("*",end="")
+            print("*",end="   ")
         print("\r")
 
 pattern28(5)
