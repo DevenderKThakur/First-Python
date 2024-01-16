@@ -39,7 +39,7 @@ def pattern5(n):
 
 # pattern5(5)
         
-def pattern28(n):
+def pattern28(n): # star pattern 
     for row in range (2*n):
         totalColinRow = 2 * n - row if row > n else row 
         totalSpace = n - totalColinRow
